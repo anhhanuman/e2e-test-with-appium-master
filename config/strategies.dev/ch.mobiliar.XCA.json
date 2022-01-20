@@ -1,0 +1,54 @@
+{
+    "xcodeOrgId": "VXMWK5649M",
+    "xcodeSigningId": "iPhone Developer",
+    "bundleId": "ch.mobiliar.XCA",
+    "appPath": "/Users/mvanh/Documents/IPA/XCA/XpertCenter App.ipa",
+    "simulatorAppPath": "/Users/mvanh/Documents/IPA/XCA/XpertCenter.app.zip",
+    "strategies": [
+        {
+            "debug": false,
+            "enabled": true,
+            "mode": "SINGLE",
+            "deviceName": "Mobiliar-iPhone-3",
+            "useSuites": true,
+            "suites": {
+                "performance-test": {
+                    "enabled": false,
+                    "testCases": [
+                        "performance-test.spec.js"
+                    ]
+                },
+                "expertise-details": {
+                    "enabled": true,
+                    "testCases": [
+                        "expertise.spec.js"
+                    ]
+                },
+                "expertise-before-upload": {
+                    "enabled": false,
+                    "testCases": [
+                        "expertise-before-upload.spec.js"
+                    ]
+                }
+            }
+        },
+        {
+            "debug": true,
+            "enabled": false,
+            "mode": "SIMULATOR",
+            "simulatorName": "iPhone 8",
+            "simulatorUDID": "36B68215-11F8-41B3-95A0-6AF84104D855",
+            "simulatorType": "iPhone",
+            "simulatorIOSVersion": "14.4",
+            "useSuites": true,
+            "suites": {
+                "performance-test": {
+                    "enabled": true,
+                    "testCases": [
+                        "performance-test.spec.js"
+                    ]
+                }
+            }
+        }
+    ]
+}

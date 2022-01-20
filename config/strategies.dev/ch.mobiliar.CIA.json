@@ -1,0 +1,42 @@
+{
+    "xcodeOrgId": "VXMWK5649M",
+    "xcodeSigningId": "iPhone Developer",
+    "bundleId": "ch.mobiliar.CIA",
+    "appPath": "/Users/anhmai/Documents/IPA/Claim Inspector App.ipa",
+    "simulatorAppPath": "/Users/anhmai/Documents/IPA/Claim.app.zip",
+    "strategies": [
+        {
+            "debug": true,
+            "enabled": true,
+            "mode": "MULTI",
+            "deviceName": "NVG iPhone X - AnhMai Hanuman",
+            "useSuites": true,
+            "suites": {
+                "login": {
+                    "enabled": false,
+                    "testCases": [
+                        "login.spec.js"
+                    ]
+                },
+                "workflow": {
+                    "enabled": true,
+                    "testCases": [
+                        "workflow.spec.js"
+                    ]
+                },
+                "uploaded-inspection": {
+                    "enabled": true,
+                    "testCases": [
+                        "uploaded-inspection.spec.js"
+                    ]
+                },
+                "overview": {
+                    "enabled": true,
+                    "testCases": [
+                        "overview.spec.js"
+                    ]
+                }
+            }
+        }
+    ]
+}

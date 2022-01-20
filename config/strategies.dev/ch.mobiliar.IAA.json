@@ -1,0 +1,108 @@
+{
+    "xcodeOrgId": "VXMWK5649M",
+    "xcodeSigningId": "iPhone Developer",
+    "bundleId": "ch.mobiliar.IAA",
+    "appPath": "/Users/mvanh/Documents/IPA/Insurance Agent App.ipa",
+    "simulatorAppPath": "/Users/mvanh/Documents/IPA/XCA/XpertCenter.app.zip",
+    "strategies": [
+        {
+            "debug": true,
+            "enabled": true,
+            "mode": "SINGLE",
+            "deviceName": "Mobiliar-iPhone-3",
+            "useSuites": true,
+            "suites": {
+                "partner-sync": {
+                    "enabled": false,
+                    "testCases": [
+                        "partner-sync.spec.js"
+                    ]
+                },
+                "partner-bulk-downloading-docs": {
+                    "enabled": false,
+                    "testCases": [
+                        "bulk-downloading.spec.js"
+                    ]
+                },
+                "contracts": {
+                    "enabled": false,
+                    "testCases": [
+                        "contracts.spec.js"
+                    ]
+                },
+                "add-foreign-contract": {
+                    "enabled": false,
+                    "testCases": [
+                        "add-foreign-contract.spec.js"
+                    ]
+                },
+                "add-document": {
+                    "enabled": false,
+                    "testCases": [
+                        "add-document.spec.js"
+                    ]
+                },
+                "documents": {
+                    "enabled": false,
+                    "testCases": [
+                        "documents.spec.js"
+                    ]
+                },
+                "search-partner": {
+                    "enabled": false,
+                    "testCases": [
+                        "search-partner.spec.js"
+                    ]
+                },
+                "menu-navigation": {
+                    "enabled": false,
+                    "testCases": [
+                        "menu-navigation.spec.js"
+                    ]
+                },
+                "partner-details": {
+                    "enabled": false,
+                    "testCases": [
+                        "partner-details.spec.js"
+                    ]
+                },
+                "partner-relations": {
+                    "enabled": false,
+                    "testCases": [
+                        "partner-relations.spec.js"
+                    ]
+                },
+                "partner-claims": {
+                    "enabled": false,
+                    "testCases": [
+                        "partner-claim.spec.js"
+                    ]
+                },
+                "partner-offers": {
+                    "enabled": false,
+                    "testCases": [
+                        "partner-offers.spec.js"
+                    ]
+                },
+                "partner-start": {
+                    "enabled": false,
+                    "testCases": [
+                        "start.spec.js"
+                    ]
+                },
+                "partner-new-free-text-task": {
+                    "enabled": true,
+                    "testCases": [
+                        "free-text-tasks.spec.js"
+                    ]
+                },
+                "partner-modification": {
+                    "enabled": false,
+                    "testCases": [
+                        "partner-modification.spec.js"
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "platformName": "iOS",
+        "platformVersion": "12.1",
+        "deviceName": "NVG iPad Pro - Trung Hanuman",
+        "deviceType": "iPad",
+        "udid": "00008027-000530CA02E8002E"
+    },
+    {
+        "platformName": "iOS",
+        "platformVersion": "12.2",
+        "deviceName": "NVG iPad Pro - Dung Hanuman",
+        "deviceType": "iPad",
+        "udid": "00008027-0018301A34E8002E"
+    },
+    {
+        "platformName": "iOS",
+        "platformVersion": "12.1.1",
+        "deviceName": "NVG iPad Pro - Tam Hanuman",
+        "deviceType": "iPad",
+        "udid": "00008027-001169D61184002E"
+    },
+    {
+        "platformName": "iOS",
+        "platformVersion": "14.1",
+        "deviceName": "NVG iPad Pro - AnhMai Hanuman",
+        "deviceType": "iPad",
+        "udid": "6b04e45cc0bed61bcdd834ff2afa66375b927209"
+    },
+    {
+        "platformName": "iOS",
+        "platformVersion": "12.3",
+        "deviceName": "NVG iPhone X - Tam Hanuman",
+        "deviceType": "iPhone",
+        "udid": "a6f5ca0c9ea349813e6053ca0ccf840f17c6cb5d"
+    },
+    {
+        "platformName": "iOS",
+        "platformVersion": "14.4.1",
+        "deviceName": "Mobiliar-iPhone-5",
+        "deviceType": "iPhone",
+        "udid": "00008101-000C1CCA3651003A"
+    },
+    {
+        "platformName": "iOS",
+        "platformVersion": "15.0",
+        "deviceName": "Mobiliar-iPhone-3",
+        "deviceType": "iPhone",
+        "udid": "00008101-000C29960AE0001E"
+    },
+    {
+        "platformName": "iOS",
+        "platformVersion": "15.0",
+        "deviceName": "Mobiliar-iPad-3",
+        "deviceType": "iPad",
+        "udid": "00008020-001508583C69402E"
+    }
+]

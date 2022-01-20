@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "declaration": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "baseUrl": "src",
+        "outDir": "dist",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "importHelpers": true,
+        "target": "es6",
+        "types": [
+            "node",
+            "jasmine",
+            "@wdio/sync"
+        ],
+        "paths": {
+            "@apps/cia/*": [
+                "apps/ch.mobiliar.CIA/*"
+            ],
+            "@apps/cra/*": [
+                "apps/ch.mobiliar.CRA/*"
+            ],
+            "@apps/iaa/*": [
+                "apps/ch.mobiliar.IAA/*"
+            ],
+            "@apps/xca/*": [
+                "apps/ch.mobiliar.XCA/*"
+            ],
+            "@shared/*": [
+                "shared/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "compileOnSave": false
+}

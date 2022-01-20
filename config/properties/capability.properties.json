@@ -1,0 +1,16 @@
+{
+    "language": "en",
+    "locale": "en_GB",
+    "browserName": "",
+    "autoWebview": true,
+    "automationName": "XCUITest",
+    "platformName": "iOS",
+    "platformVersion": "",
+    "deviceName": "",
+    "udid": "",
+    "enablePerformanceLogging": false,
+    "showIOSLog": false,
+    "noReset": true,
+    "autoAcceptAlerts": false,
+    "acceptAlertButtonSelector": "**/XCUIElementTypeButton[`label CONTAINS[c] 'OK'`]"
+}

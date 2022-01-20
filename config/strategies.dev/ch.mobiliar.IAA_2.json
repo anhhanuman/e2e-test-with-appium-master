@@ -1,0 +1,60 @@
+{
+    "xcodeOrgId": "VXMWK5649M",
+    "xcodeSigningId": "iPhone Developer",
+    "bundleId": "ch.mobiliar.IAA",
+    "appPath": "/Users/mvanh/Documents/IPA/Insurance Agent App.ipa",
+    "simulatorAppPath": "/Users/mvanh/Documents/IPA/XCA/XpertCenter.app.zip",
+    "strategies": [
+        {
+            "debug": true,
+            "enabled": true,
+            "mode": "SINGLE",
+            "deviceName": "Mobiliar-iPhone-5",
+            "useSuites": true,
+            "suites": {
+                "partner-details": {
+                    "enabled": false,
+                    "testCases": [
+                        "partner-details.spec.js"
+                    ]
+                },
+                "partner-relations": {
+                    "enabled": false,
+                    "testCases": [
+                        "partner-relations.spec.js"
+                    ]
+                },
+                "partner-claims": {
+                    "enabled": false,
+                    "testCases": [
+                        "partner-claim.spec.js"
+                    ]
+                },
+                "partner-offers": {
+                    "enabled": false,
+                    "testCases": [
+                        "partner-offers.spec.js"
+                    ]
+                },
+                "partner-start": {
+                    "enabled": false,
+                    "testCases": [
+                        "start.spec.js"
+                    ]
+                },
+                "partner-new-free-text-task": {
+                    "enabled": false,
+                    "testCases": [
+                        "free-text-tasks.spec.js"
+                    ]
+                },
+                "partner-modification": {
+                    "enabled": false,
+                    "testCases": [
+                        "partner-modification.spec.js"
+                    ]
+                }
+            }
+        }
+    ]
+}

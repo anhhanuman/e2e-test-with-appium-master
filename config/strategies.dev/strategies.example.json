@@ -1,0 +1,55 @@
+{
+    "xcodeOrgId": "VXMWK5649M",
+    "xcodeSigningId": "iPhone Developer",
+    "bundleId": "ch.mobiliar.CRA",
+    "appPath": "/Users/quangpham/Documents/IPA/Claim Registration App.ipa",
+    "simulatorAppPath": "/Users/quangpham/Documents/IPA/Claim.app.zip",
+    "strategies": [
+        {
+            "debug": true,
+            "enabled": true,
+            "mode": "SINGLE",
+            "deviceName": "NVG iPad Pro - Quang Hanuman",
+            "useSuites": false,
+            "suites": {
+                "login": {
+                    "enabled": true,
+                    "testCases": [
+                        "login.spec.js"
+                    ]
+                },
+                "registerClaimCasesForIPad": {
+                    "enabled": true,
+                    "deviceType": "iPad",
+                    "testCases": [
+                        "workflow/register-claim-cases.ipad.spec.js"
+                    ]
+                }
+            }
+        },
+        {
+            "debug": true,
+            "enabled": true,
+            "mode": "MULTI",
+            "deviceName": "NVG iPhone 6S Plus - Quang Hanuman",
+            "useSuites": true,
+            "suites": {
+                "login": {
+                    "enabled": true,
+                    "testCases": [
+                        "login.spec.js"
+                    ]
+                }
+            }
+        },
+        {
+            "debug": true,
+            "enabled": true,
+            "mode": "SIMULATOR",
+            "simulatorName": "iPad Pro (9.7-inch)",
+            "simulatorUDID": "AE1B176F-7147-47FF-B082-12FEB42ADB46",
+            "simulatorType": "iPad",
+            "simulatorIOSVersion": "12.2"
+        }
+    ]
+}

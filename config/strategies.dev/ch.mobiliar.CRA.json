@@ -1,0 +1,15 @@
+{
+    "xcodeOrgId": "VXMWK5649M",
+    "xcodeSigningId": "iPhone Developer",
+    "bundleId": "ch.mobiliar.CRA",
+    "appPath": "/Users/anhmai/Documents/IPA/Claim Registration App.ipa",
+    "simulatorAppPath": "/Users/anhmai/Documents/IPA/Claim.app.zip",
+    "strategies": [
+        {
+            "debug": true,
+            "enabled": true,
+            "mode": "MULTI",
+            "useSuites": false
+        }
+    ]
+}

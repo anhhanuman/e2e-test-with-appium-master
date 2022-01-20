@@ -1,0 +1,84 @@
+{
+    "xcodeOrgId": "VXMWK5649M",
+    "xcodeSigningId": "iPhone Developer",
+    "bundleId": "ch.mobiliar.IAA",
+    "appPath": "/Users/anhmai/Documents/IPA/Insurance Agent App.ipa",
+    "simulatorAppPath": "/Users/anhmai/Documents/IPA/Claim.app.zip",
+    "strategies": [
+        {
+            "debug": false,
+            "enabled": true,
+            "mode": "MULTI",
+            "deviceName": "NVG iPhone X - AnhMai Hanuman",
+            "useSuites": true,
+            "suites": {
+                "partner-bulk-downloading-docs": {
+                    "enabled": true,
+                    "testCases": [
+                        "bulk-downloading.spec.js"
+                    ]
+                },
+                "partner-contracts": {
+                    "enabled": true,
+                    "testCases": [
+                        "partner-contracts.spec.js"
+                    ]
+                },
+                "partner-docs": {
+                    "enabled": true,
+                    "testCases": [
+                        "partner-docs.spec.js"
+                    ]
+                },
+                "search-partner": {
+                    "enabled": true,
+                    "testCases": [
+                        "search-partner.spec.js"
+                    ]
+                },
+                "menu-navigation": {
+                    "enabled": true,
+                    "testCases": [
+                        "menu-navigation.spec.js"
+                    ]
+                },
+                "partner-details": {
+                    "enabled": true,
+                    "testCases": [
+                        "partner-details.spec.js"
+                    ]
+                },
+                "partner-relations": {
+                    "enabled": true,
+                    "testCases": [
+                        "partner-relations.spec.js"
+                    ]
+                },
+                "partner-claims": {
+                    "enabled": true,
+                    "testCases": [
+                        "partner-claim.spec.js"
+                    ]
+                },
+                "partner-offers": {
+                    "enabled": true,
+                    "testCases": [
+                        "partner-offers.spec.js"
+                    ]
+                },
+                "partner-start": {
+                    "enabled": true,
+                    "testCases": [
+                        "start.spec.js"
+                    ]
+                },
+                "partner-new-free-text-task": {
+                    "enabled": true,
+                    "testCases": [
+                        "free-text-tasks.spec.js"
+                    ]
+                }
+            }
+        }
+    ]
+}
